@@ -34,6 +34,7 @@ activePage.style.fontWeight = "bold";
 
 // знаходимо всі кнопки пагінації в документі
 let paginationList = document.querySelectorAll(`[data-page]`);
+
 // якщо кнопка пагінації лише одна, не показуємо її на сторінці
 if(paginationList.length == 1){
     activePage.style.display = "none";
