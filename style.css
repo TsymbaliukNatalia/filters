@@ -1,0 +1,51 @@
+a{
+    text-decoration: none;
+    color: black; 
+}
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.filters_container{
+    display: flex;
+}
+.filters_box{
+    display: flex;
+}
+.list_product{
+    margin-left: 15px;
+}
+.list_product th
+{
+    text-align: left;
+}
+.list_product td{
+    font-size: 18px;
+    padding: 2px 5px;
+}
+.list_product button{
+    border-radius: 20px;
+    outline: none;
+}
+.submit_filters_box{
+    margin-top: 10px;
+}
+.submit_filters_box input{
+    border-radius: 20px;
+    outline: none;
+}
+.pagination_box{
+    display: flex;
+    justify-content: center;
+}
+.pagination_box button{
+    border-radius: 50%;
+}
+.add_box{
+    font-size: 18px;
+}
+#add_button{
+    border-radius: 12px;
+    font-size: 24px;
+}
